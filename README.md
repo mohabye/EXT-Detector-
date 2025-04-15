@@ -1,43 +1,32 @@
-# EXT-Detector-
-🔍 EXTDetector - Browser Extension Security Analyzer 🛡️
-PowerShell
-Slack
-VirusTotal
-
+EXTDetector - Browser Extension Security Analyzer 🛡️
 A PowerShell tool that scans installed browser extensions, checks them against VirusTotal, and reports findings to Slack with detailed security analysis.
-
 ✨ Features
+
 🔎 Detects all installed Chrome/Edge extensions across user profiles
-
 🔢 Calculates SHA256 hashes of extension files
-
 🦠 Checks extensions against VirusTotal's malware database
-
 📤 Sends detailed security reports to Slack
-
 ⚡ Lightweight and fast (no installation required)
-
 🎨 Colorful console output with progress indicators
 
 📦 Installation
-
 # Clone the repository
-git clone https://github.com/yourusername/EXTDetector.git
+git clone https://github.com/mohabye/EXTDetector.git
 cd EXTDetector
 
 # Edit configuration (required before first run)
 notepad EXTDetector.ps1
+
 ⚙️ Configuration
 Edit these variables in the script:
-
 $slackWebhookUrl = "YOUR_SLACK_WEBHOOK_URL"  # Required for Slack notifications
 $vtApiKey = "YOUR_VIRUSTOTAL_API_KEY"       # Required for malware checks
-🚀 Usage
 
+🚀 Usage
 # Run with default settings
 .\EXTDetector.ps1
 
-# Sample output preview:
+Sample Output Preview
 _______________  ______________ ________          __                 __                
 \_   _____/\   \/  /\__    ___/ \______ \   _____/  |_  ____   _____/  |_  ___________ 
  |    __)_  \     /   |    |     |    |  \_/ __ \   __\/ __ \_/ ___\   __\/  _ \_  __ \
@@ -54,8 +43,8 @@ _______________  ______________ ________          __                 __
 📤 Slack notification sent successfully!
 ✅ Checked extension: القرآن الكريم - Azkar
 🎉 All checks completed! 🎉
-📩 Sample Slack Alert
 
+📩 Sample Slack Alert
 ❓ User: tiger  
 ❓ Profile: Default  
 ❓ Extension ID: fmphggefmkpfoffkdebjnfkehdhmpocn  
@@ -67,16 +56,14 @@ _______________  ______________ ________          __                 __
 ❓ Process Name: chrome  
 ❓ Process Path: C:\Program Files\Google\Chrome\Application\chrome.exe
 
-![image](https://github.com/user-attachments/assets/e063745d-3ff4-4b2a-bf09-4f97aa4ece11)
+![Uploading image.png…]()
 
 
 📝 Requirements
+
 Windows PowerShell 5.1+ (or PowerShell Core)
-
 Slack incoming webhook URL
-
 VirusTotal API key (free tier available)
-
 Google Chrome or Microsoft Edge installed
 
 🤝 Contributing
