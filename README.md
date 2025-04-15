@@ -1,7 +1,8 @@
 EXTDetector - Browser Extension Security Analyzer 🛡️
 A PowerShell tool that scans installed browser extensions, checks them against VirusTotal, and reports findings to Slack with detailed security analysis.
-✨ Features
 
+
+✨ Features:
 🔎 Detects all installed Chrome/Edge extensions across user profiles
 🔢 Calculates SHA256 hashes of extension files
 🦠 Checks extensions against VirusTotal's malware database
@@ -56,7 +57,7 @@ _______________  ______________ ________          __                 __
 ❓ Process Name: chrome  
 ❓ Process Path: C:\Program Files\Google\Chrome\Application\chrome.exe
 
-![Uploading image.png…]()
+![image](https://github.com/user-attachments/assets/d9d693a4-9477-44ac-8b39-6f70013515c0)
 
 
 📝 Requirements
